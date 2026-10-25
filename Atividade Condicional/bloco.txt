@@ -7,7 +7,6 @@ if letra not in "aeiou":
 
 else:
     print("vogal")
-
 atividade06
 
 num1 = int(input("Insira o 1° número: "))
