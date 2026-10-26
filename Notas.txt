@@ -1,0 +1,65 @@
+atividade04
+
+letra = input("Insira uma letra: ")
+
+if letra not in "aeiou":
+    print("Consoante")
+
+else:
+    print("vogal")
+
+atividade06
+
+num1 = int(input("Insira o 1° número: "))
+num2 = int(input("Insira o 2° número: "))
+num3 = int(input("Insira o 3° número: "))
+
+if num1 <= num2 <= num3 or num2 <= num1 <= num3:
+    print(num3)
+
+elif num3 <= num2 <= num1 or num2 <= num3 <= num1:
+    print(num1)
+
+elif num3 <= num1 <= num2 or num1 <= num3 <= num2:
+    print(num2)
+
+atividade13
+
+dia = int(input("Informe o dia da semana: "))
+
+if dia == 1:
+    print("É domingo")
+
+elif dia == 2:
+    print("Segunda")
+
+if dia == 3:
+    print("Terça")
+
+elif dia == 4:
+    print("Quarta")
+
+if dia == 5:
+    print("Quinta")
+
+elif dia == 6:
+    print("Sexta")
+
+elif dia == 7:
+    print("Sábado")
+
+else:
+    print("Valor inválido")
+
+teste01
+
+a = int(input("Insira um valor "))
+b = int(input("Insira um valor "))
+
+print(a, b)
+
+c = a
+a = b
+b = c
+
+print(a, b)

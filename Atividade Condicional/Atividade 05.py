@@ -15,7 +15,7 @@ print("A média do Aluno(a) é:", media)
 if media == 10.0:
     print("Aprovado com Distinção")
 elif media >= 7.0:
-    print("O Aluno foi Aprovado Parabéns")
+    print("O Aluno foi Aprovado, Parabéns")
 else:
     print("O aluno foi Reprovado")
 

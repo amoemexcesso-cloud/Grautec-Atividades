@@ -18,3 +18,9 @@ print("--- Resultados ---")
 print(f"O produto do dobro do primeiro pela metade do segundo: {resultado_1}")
 print(f"A soma do triplo do primeiro com o terceiro: {resultado_2}")
 print(f"O terceiro número elevado ao cubo: {resultado_3:.3f}")
+
+
+
+
+
+
