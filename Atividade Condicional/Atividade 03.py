@@ -4,7 +4,7 @@ F - Feminino
 M - Masculino
 Sexo Inválido.
 '''
-letra = input("qual seu gênero F ou M: ")
+letra = input("qual seu gênero F ou M: ").upper()
 
 if letra == "F":
     print("Feminino")

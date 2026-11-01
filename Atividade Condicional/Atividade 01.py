@@ -6,7 +6,8 @@ num2 = int(input("Digite o segundo número: "))
 
 if num1 > num2:
     print("O maior número é", num1)
-else:
+elif num1 < num2:
     print("O maior número é", num2)
-
+else:
+    print("Os dois números são iguais")
 print()
