@@ -17,4 +17,4 @@ elif turno == "N":
     print("Boa noite bruno!")
 
 else:
-    print("Tá moscando fio?")
+    print("Tá moscando fio, é para digitar M, V ou N?")
