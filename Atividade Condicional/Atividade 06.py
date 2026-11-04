@@ -1,6 +1,7 @@
 '''
 Faça um programa que leia três números e mostre o maior deles:
 '''
+<<<<<<< HEAD
 num1 = int(input("Insira o 1° número: "))
 num2 = int(input("Insira o 2° número: "))
 num3 = int(input("Insira o 3° número: "))
@@ -13,3 +14,5 @@ elif num3 <= num2 <= num1 or num2 <= num3 <= num1:
 
 elif num3 <= num1 <= num2 or num1 <= num3 <= num2:
     print(num2)
+=======
+>>>>>>> 75c98d5 (Atividades de repeitção)
