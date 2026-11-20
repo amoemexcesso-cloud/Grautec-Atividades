@@ -7,4 +7,11 @@ Tabuada de 5:
 ...
 5 X 10 = 50
 '''
+numero = int(input("Deseja a tabuada de qual número? "))
 
+print(f"\nTabuada de {numero}:")
+
+# Loop de 1 até 10 para calcular e exibir cada linha da tabuada
+for i in range(1, 11):
+  resultado = numero * i
+  print(f"{numero} X {i} = {resultado}")
