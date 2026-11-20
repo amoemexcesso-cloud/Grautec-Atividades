@@ -12,4 +12,3 @@ soma_dos_valores = sum(lista)
 
 # 3. mostrar os resultados
 print(f"Menor valor é {menor_valor}, logo o Maior é {maior_valor} e a soma dos valores é {soma_dos_valores}")
-

@@ -9,6 +9,6 @@ if valor > 0:
 elif valor < 0:
     print("O valor é negativo.")
 else:
-    print("O Valor é zero.")
+    print("O Valor é neutro.")
 
 print()
